@@ -20,24 +20,28 @@
 
             <div class="row">
 
-                <div id="Parte_Izquierda"class="col-3">
+                <div id="Parte_Izquierda"class="col-4">
+                    <br>
+                    <div id="FilaImagen" class="row">
+                        <img src="Imagenes/ImagenPlaceholder.png" alt="ImagenTonta">
+                    </div>
                     <br>
                     <div id="Fila_SeccionBoton" class="row">
-                        <div id="SeccionBoton_Reiniciar"class="col-4 SeccionBoton">
+                        <div id="SeccionBoton_Reiniciar"class="col-6 SeccionBoton">
                                 <button>
                                     <h2>Reiniciar Formulario💥</h2>
                                 </button>
                         </div>
-                        <div id="SeccionBoton_Registrar" class="col-8 SeccionBoton">
+                        <div id="SeccionBoton_Registrar" class="col-6 SeccionBoton">
                             <button>
                                 <h3>Registrarse🎉</h3>
                             </button>
                         </div>
                     </div>
                 </div>
-                <div id="Parte_Derecha" class="col-9">
+                <div id="Parte_Derecha" class="col-8">
                     
-                    <form action="/submit-formulario" method="post">
+                    <form id="FormularioPrincipal"action="/submit-formulario" method="post">
 
                         <div id="FilaNombre" class="row">
                         <div class="col-6">
@@ -73,7 +77,7 @@
                         </div>
 
                         <div id="FilaGenero" class="row">
-                            <label for="Genero">Seleccione su género</label>
+                            <div class="col-6"><label id="Label_Genero" for="Genero">Seleccione su género</label>                            </div>
                             <ul id="SeleccionarGenero" class="Lista-Horizontal">
                                 <li><label for="Género:"></label></li>
                                 <li>

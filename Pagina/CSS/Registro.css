@@ -1,8 +1,63 @@
+header{
+    padding: 20px;
+    background-color: rgb(146, 227, 255);
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#Contenedor_Formulario{
+    max-width: 100%;
+}
+
+#SeccionBoton_Reiniciar, #SeccionBoton_Registrar{
+text-align: center;
+
+}
+button{
+    height: 100%;
+    max-height: 100%;
+    background-color: rgb(65, 67, 126);
+    color: azure;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    width: 90%;
+}
+
+#Parte_Izquierda,  #Parte_Derecha{
+    padding: 20px;
+}
+
+#Parte_Izquierda{
+    background-color: rgb(192, 255, 224);
+}
+#Parte_Derecha{
+   background-color: rgb(181, 183, 254);
+}
+
+#FormularioPrincipal .row{
+background-color: rgb(64, 64, 64);
+margin: 10px;
+color: white;
+font-size: large;
+padding: 5px;
+height: 120;
+border-radius: 15px;
+}
+#FormularioPrincipal .row input{
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+}
+#FormularioPrincipal #FilaGenero{
+    width: none;
+}
+
 .Lista-Horizontal{
-list-style: none; /* Eliminar las viñetas */
-padding: 0; /* Eliminar el relleno */
+list-style: none;   /* Eliminar las viñetas */
+padding: 0;         /* Eliminar el relleno */
 }
 .Lista-Horizontal li {
-    display: inline; /* Hacer que los elementos sean en línea */
+    display: inline;    /* Hacer que los elementos sean en línea */
     margin-right: 10px; /* Añadir un espacio entre los elementos (opcional) */
   }
