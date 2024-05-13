@@ -38,7 +38,8 @@
                 <div id="Parte_Derecha" class="col-9">
                     
                     <form action="/submit-formulario" method="post">
-                        <div class="row">
+
+                        <div id="FilaNombre" class="row">
                         <div class="col-6">
                             <label for="nombre">Nombre:</label>
                         </div>
@@ -48,34 +49,80 @@
                      
                         </div>
                 
-                        <label for="email">Correo Electrónico:</label>
-                        <input type="email" id="email" name="email" required>
+                        <div id="FilaApellido" class="row">
+                            <div class="col-6">
+                                <label for="Apellido">Apellido:</label>
+                            </div>
+                            <div class="col-6">
+                                <input type="text" id="Apellido" name="Apellido" required>
+                            </div>
+                        </div>
+
+                        <div id="FilaContraseña" class="row">
+                            <div class="col-6">
+                                <label for="contrasena">Contraseña:</label>
+                            </div>
+                            <div class="col-6">
+                                <input type="password" id="contrasena" name="contrasena" required>
+                            </div>
+                        </div>
+
+                        <div id="FilaFecha" class="row">
+                            <div class="col-6"><label for="Fecha_Nacimiento">Fecha de nacimiento:</label></div>
+                            <div class="col-6"><input type="date" name="Fecha_Nacimiento" id="Fecha_Nacimiento"></div>
+                        </div>
+
+                        <div id="FilaGenero" class="row">
+                            <label for="Genero">Seleccione su género</label>
+                            <ul id="SeleccionarGenero" class="Lista-Horizontal">
+                                <li><label for="Género:"></label></li>
+                                <li>
+                                    <input type="radio" id="Masculino" name="Genero" value="Masculino" />
+                                    <label for="Masculino">Masculino</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="Femenino" name="Genero" value="Femenino" />
+                                    <label for="Femenino">Femenino</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="Otro" name="Genero" value="Otro" />
+                                    <label for="Otro">Otro</label>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div id="FilaCorreo" class="row">
+                            <div class="col-6"><label for="Correo">Correo Electrónico</label></div>
+                            <div class="col-6"><input type="email" name="Correo" id="Correo"></div>
+                        </div>
                 
-                        <label for="contrasena">Contraseña:</label>
-                        <input type="password" id="contrasena" name="contrasena" required>
-                
-                        <label for="edad">Edad:</label>
-                        <input type="number" id="edad" name="edad" min="18" max="100">
-                
-                        <label for="genero">Género:</label>
-                        <select id="genero" name="genero">
-                            <option value="masculino">Masculino</option>
-                            <option value="femenino">Femenino</option>
-                            <option value="otro">Otro</option>
-                        </select>
-                
-                        <label for="intereses">Intereses:</label>
-                        <input type="checkbox" id="deporte" name="intereses" value="deporte">
-                        <label for="deporte">Deporte</label>
-                        <input type="checkbox" id="musica" name="intereses" value="musica">
-                        <label for="musica">Música</label>
-                        <input type="checkbox" id="lectura" name="intereses" value="lectura">
-                        <label for="lectura">Lectura</label>
-                
-                        <label for="comentarios">Comentarios:</label>
-                        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
-                
-                        <input type="submit" value="Enviar">
+                        <div id="FilaCodigoPostal" class="row">
+                            <div class="col-6"><label for="CodigoPostal">Codigo Postal</label></div>
+                            <div class="col-6"><input type="number" name="CodigpPostal" id="CodigoPostal"></div>
+                        </div>
+
+                        <div id="FilaCantidadCorreos" class="row">
+                            <div class="col-9">
+                                <label for="CantidadCorreos" class="form-label">Cantidad de correos que acepta recibir</label>
+                                <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">    
+                            </div>
+                        </div>
+
+                        <div id="FilaNumeroTel" class="row">
+                            <div class="col-6">
+                                <label for="Telefono">Número de teléfono de contacto: </label>
+                            </div>
+                            <div class="col-6">
+                                <input type="tel" name="Telefono" id="Telefono">
+                            </div>
+                            
+                        </div>
+
+                        <div id="FilaRedSocial" class="row">
+                            <div class="col-4"><label for="RedSocial">Ingrese su red social de contacto: </label></div>
+                            <div class="col-8"><input type="url" name="RedSocial" id="RedSocial" placeholder="www.redsocial/usuario..."></div>
+                        </div>
+              
                     </form>
                     
                 </div>

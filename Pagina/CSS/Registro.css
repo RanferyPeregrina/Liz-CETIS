@@ -1,0 +1,8 @@
+.Lista-Horizontal{
+list-style: none; /* Eliminar las viñetas */
+padding: 0; /* Eliminar el relleno */
+}
+.Lista-Horizontal li {
+    display: inline; /* Hacer que los elementos sean en línea */
+    margin-right: 10px; /* Añadir un espacio entre los elementos (opcional) */
+  }
