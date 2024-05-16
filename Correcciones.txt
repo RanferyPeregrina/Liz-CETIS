@@ -1,0 +1,2 @@
+Corregir el color del Nav del Index
+Corregir el funcionamiento del acordeón del Section_Article

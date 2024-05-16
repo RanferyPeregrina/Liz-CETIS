@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Estilos.css">
+    <link rel="stylesheet" href="CSS/index.css">
     <!-- Esto es para que funcione Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -11,23 +11,211 @@
 </head>
 <body>
     
-    <header>
-        
-        <div class="logo">
-            <img src="logo.png" alt="Logo de tu Sitio Web">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#acerca">Acerca de</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
+  <header></header>
+<nav id="NavPrincipal">
+      
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<div class="container-fluid">
+<a class="navbar-brand" href="index.html">Cálculo Diferencial</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+<ul class="navbar-nav">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="Index.html">Inicio</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="Mision_Vision.html">Misión y Visión</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="Informacion.html">Información</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Contacto
+    </a>
+    <ul id="Menu_Contacto" class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">WhatsApp</a></li>
+      <li><a class="dropdown-item" href="https://www.facebook.com/profile.php?id=61557608234192&mibextid=LQQJ4d">Facebook</a></li>
+      <li><a class="dropdown-item" href="#">Correo</a></li>
+    </ul>
+  </li>
+</ul>
+</div>
+</div>
+</nav>
 
-    </header>
+
+</nav>
+
+    <div id="ContenedorPrincipal" class="container">
+      <div id="ContenedorSecundario" class="container">
+        <h1>Cálculo Diferencial ✨</h1>
+        <p>
+          Bienvenido a nuestra página dedicada al apasionante mundo del cálculo diferencial. Desde los fundamentos más básicos hasta las aplicaciones más avanzadas, aquí encontrarás todo lo que necesitas para comprender y dominar esta poderosa herramienta matemática. El cálculo diferencial es una rama fundamental de las matemáticas que nos permite entender cómo cambian las cantidades en función de otras, y su aplicación se extiende a una amplia gama de disciplinas, desde la física y la ingeniería hasta la economía y las ciencias de la computación.
+        </p>
+        <p>
+          En nuestra página, te embarcarás en un viaje de descubrimiento a través de conceptos como la derivada, la integral, y las ecuaciones diferenciales, explorando su significado intuitivo, sus aplicaciones prácticas y sus conexiones con el mundo que nos rodea. Nuestro objetivo es hacer que el cálculo diferencial sea accesible para todos, desde aquellos que dan sus primeros pasos en el mundo de las matemáticas hasta aquellos que desean profundizar en sus conocimientos y habilidades.
+        </p>
+        <p>
+          Ya sea que estés estudiando para un examen, buscando aplicaciones del cálculo en tu campo profesional, o simplemente interesado en ampliar tus horizontes intelectuales, estamos aquí para acompañarte en cada paso del camino. Únete a nosotros mientras exploramos los conceptos, resolvemos problemas desafiantes, y descubrimos la belleza y la utilidad del cálculo diferencial juntos. ¡Comencemos este emocionante viaje hacia el mundo del cálculo diferencial!
+        </p>
+      </div>
+      
+      <br>
+      <div class="row">
+        <div id="Article" class="col-9">            <!-- Aquí se usó un ARTIVLE 🌙-->
+            
+          <article>
+            <section class="Seccion" id="Seccion1">   <!-- Aquí se usó un SECTION 🌙-->
+              <h3>Conceptos Fundamentales:</h3>
+              <br>
+              <p>
+                En esta sección, exploraremos los conceptos básicos del cálculo diferencial, desde la definición de la derivada hasta las reglas de derivación y las aplicaciones clave como máximos y mínimos, concavidad y convexidad, y problemas de optimización.              
+              </p>
+  
+              <!-- -----------------------Aquí inicia el acordeón-------------------------------- -->
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Derivadas
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      Las derivadas son una herramienta central en el cálculo diferencial que nos permite estudiar cómo cambian las funciones en relación con sus variables. Conceptualmente, la derivada de una función en un punto dado representa la tasa de cambio instantánea de la función en ese punto. En otras palabras, nos dice cuán rápido está aumentando o disminuyendo la función en ese punto específico. Las derivadas son fundamentales para comprender la pendiente de una curva en un punto, la concavidad de una función, así como para resolver problemas de optimización y modelado en diversas disciplinas.                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Límites
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      Los límites son el concepto central que subyace a toda la teoría del cálculo diferencial. Representan el comportamiento de una función a medida que la variable independiente se acerca a un valor particular. Los límites nos permiten describir y comprender el comportamiento de las funciones en puntos críticos, como los puntos de discontinuidad o los puntos donde una función tiende al infinito. Además, los límites son fundamentales para definir la derivada de una función, ya que la derivada se define como el límite de la razón incremental cuando el cambio en la variable independiente tiende a cero.
+                    </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Funciones
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      Entender las funciones y sus gráficas es esencial para el estudio del cálculo diferencial. Las funciones son reglas que asignan a cada elemento de un conjunto de entrada exactamente un elemento de un conjunto de salida. Sus gráficas representan visualmente cómo varían las funciones a medida que cambian sus entradas. Comprender las características de las funciones, como su dominio, rango, simetría, así como la relación entre sus gráficas y sus derivadas, es crucial para aplicar los conceptos del cálculo diferencial de manera efectiva y resolver problemas matemáticos y científicos.                  </div>
+                </div>
+              </div>
+                <!-- -----------------------Aquí termina el acordeón-------------------------------- -->
+
+            </section>
+              <br>
+        <!-- ------------------------ Aquí inicia la otra sección -------------------------------- -->
+              <br>
+            <section class="Seccion" id="Seccion2">
+              <h3>Aplicaciones y ejemplos prácticos:</h3>
+              <br>
+              <p>
+                Sumérgete en el mundo real del cálculo diferencial a través de esta sección, donde examinaremos aplicaciones prácticas en diversos campos, como la física, la economía y la ingeniería. Desde el cálculo de áreas y volúmenes hasta la modelización de fenómenos naturales y la optimización de procesos, descubrirás cómo los principios del cálculo diferencial se aplican en situaciones del mundo real.              
+              </p>
+  
+              <!-- -----------------------Aquí inicia el acordeón-------------------------------- -->
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Velocidad Instantánea
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      Imagina que estás siguiendo el movimiento de un coche. Cada segundo, anotas su posición. Para entender cómo se está moviendo en cualquier momento, calculas la distancia que recorre en un intervalo de tiempo muy pequeño. Este cálculo te da la velocidad en ese instante exacto.
+                      </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Optimización de áreas y volúmenes
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      Supongamos que quieres hacer una caja de papel sin tapa. Para maximizar el espacio que puede contener, doblando y cortando el papel de manera eficiente, necesitas determinar las dimensiones del cuadrado que debes cortar en cada esquina. Este cálculo te ayuda a encontrar esas dimensiones para maximizar el espacio interior de la caja.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Tasas de Cambio Relacionadas
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      Digamos que estás observando cómo cambia el área de un círculo cuando cambia su radio. Al aumentar o disminuir el radio en una cantidad muy pequeña, puedes calcular cómo cambia el área del círculo en respuesta a ese cambio minúsculo en el radio. Este cálculo te ayuda a comprender cómo dos variables están relacionadas entre sí.                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!-- -----------------------Aquí termina el acordeón-------------------------------- -->
+
+            </section>
+            <section>
+  
+          </article>
+
+        </div>
+        <div id="Aside" class="col-3">      <!-- Aquí se usó un ASIDE 🌙-->
+
+          <aside>
+            <h2>¿Qué es el cálculo diferencial?</h2>
+            <p id="Parrafo1_Aside">
+              El cálculo diferencial es una rama de la matemática que permite resolver diversos problemas donde el cambio de las variables se puede modelar en un continuo numérico para determinar, a partir de ello, la variación de estos elementos en un instante o intervalo específico.
+            </p>
+            <p id="Parrafo2_Aside">
+              Al aplicarlo, es posible determinar el momento en que se da una tendencia al alza o a la baja del mercado a partir de los datos del índice bursátil, determinar la velocidad máxima que un vehículo puede alcanzar en una carretera, el comportamiento que puede mostrar a largo plazo la concentración de una mezcla o predecir el número de horas-hombre necesarias para un nivel de producción industrial; los anteriores son ejemplos de la amplia variedad de problemas que pueden resolverse gracias a esta disciplina.
+            </p>
+            <div id="Aside_ContenedorImagen" class="container">
+              <img  id="Imagen_Aide" src="Imagenes/CalculoDiferencial_Aside.png" alt="Imagen_Aside">
+            </div>
+          </aside>
+          
+        </div>
+  
+      </div>
+
+    </div>
 
 </body>
+
+
+
+
+<footer>                                                     <!-- Aquí se usó un FOOTER 🌙-->
+
+  <div class="equipo">
+    <h4>
+      Equipo conformado por:
+    </h4>
+    <ul class="ListaHorizontal">                            <!-- Aquí se usó una LISTA DESORDENADAD 🌙-->
+      <li>Roberto Jair Hernández Rosales</li>
+      <li>Gael Emiliano Díaz Ramírez</li>
+      <li>César Alessandro Hernández Cruz</li>
+      <li>Luis Adrián Del Ángel Muñóz</li>
+      <li>Fátima Lizeth Montemayor Vélez</li>
+    </ul>
+  </div>
+    <br>
+  <div id="Info_Legal">
+    Esta página es un proyecto escolar, para más información revisar: 
+    <a href="Terminos_Condiciones.html">Términos y condiciones de la página</a>   <!-- Aquí se usó un ANCLA 🌙-->
+    <br>
+    Si necesita contactar con el equipo creador de la página, consulte la pestaña de <a href="#Menu_Contacto">Contactos</a>
+  </div>
+</footer>
+
 </html>
-
-

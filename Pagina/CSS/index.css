@@ -1,0 +1,53 @@
+#NavPrincipal{
+    background-color: rgb(15, 20, 62);
+    color: #BCBCBC;
+}
+
+#ContenedorPrincipal{
+    background-color: rgb(225, 243, 245);
+    margin-top: 20px;
+    padding: 10mm;                    /*Uso de milímetros */
+}
+#ContenedorSecundario{                                  /* ¡¡Selector de ID!! 🌹 */
+    padding: 20px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+h3{                                                     /* ¡¡Selector de Etiqueta!! 🌹 */
+    background-color: rgb(35, 208, 240);
+    color: black;
+    padding:1pc;                       
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+
+/*------------------------------------ Configuración del Aside -------------------------------------------*/
+#Aside{
+    background-color: whitesmoke;
+    padding-top: 1pc;
+}
+#Parrafo2_Aside + div.container img {                   /* ¡¡Selector de Adyacencia!! 🌹 */
+    max-width: 100%;
+}
+
+/*------------------------------------ Configuración del footer -------------------------------------------*/
+
+footer{
+    background-color: rgb(15, 20, 62);
+    color: aliceblue;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.ListaHorizontal{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.ListaHorizontal li{                                    /* ¡¡Selector de Descendencia!! 🌹 */
+    display: inline-block;
+    margin-right: 3pc;
+}
