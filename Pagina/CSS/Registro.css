@@ -13,14 +13,19 @@ header{
 text-align: center;
 
 }
-button{
+.BotonChido{
     height: 100%;
     max-height: 100%;
-    background-color: rgb(65, 67, 126);
-    color: azure;
+    background-color: rgb(225, 243, 245);       /*---- Aquí se usó descripción de color por código RGB 🌹*/
+    color: hsla(234, 61%, 15%, 0.916);          /*---- Aquí se usó descripción de color por porcentajes 🌹*/
     padding-top: 25px;
     padding-bottom: 15px;
     width: 90%;
+    
+    margin-top: 20%;
+    border-radius: 20px;
+
+    font-size: xx-large;
 }
 
 #Parte_Izquierda,  #Parte_Derecha{
@@ -28,16 +33,17 @@ button{
 }
 
 #Parte_Izquierda{
-    background-color: rgb(192, 255, 224);
+   background-color: #3d5bf1;                   /*---- Aquí se usó descripción de color por código Hexagesimal 🌹*/
 }
 #Parte_Derecha{
-   background-color: rgb(181, 183, 254);
+   background-color: rgb(89, 173, 188)
+
 }
 
 #FormularioPrincipal .row{
-background-color: rgb(64, 64, 64);
+background-color: rgb(225, 243, 245);
 margin: 10px;
-color: white;
+color: rgb(24, 30, 103);                               /*---- Aquí se usó descripción de color por NOMBRE del clor 🌹*/
 font-size: large;
 padding: 5px;
 height: 120;
@@ -61,3 +67,23 @@ padding: 0;         /* Eliminar el relleno */
     display: inline;    /* Hacer que los elementos sean en línea */
     margin-right: 10px; /* Añadir un espacio entre los elementos (opcional) */
   }
+
+  
+/*------------------------------------ Configuración del footer -------------------------------------------*/
+
+footer{
+    background-color: rgb(15, 20, 62);
+    color: aliceblue;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.ListaHorizontal{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.ListaHorizontal li{                                    /* ¡¡Selector de Descendencia!! 🌹 */
+    display: inline-block;
+    margin-right: 3pc;
+}

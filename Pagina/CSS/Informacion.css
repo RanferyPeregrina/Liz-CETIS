@@ -1,7 +1,42 @@
 
+header img{
+    width: 100%; /* Expande la imagen al 100% del contenedor */
+    max-height: 80%;
+    display: block; /* Evita el espacio en blanco debajo de la imagen */
+}
+        
+
+
 body{
     background-color: #0E133F
 }
+nav{
+    height: 100px;
+    font-size: large;
+    
+    background-color:#22D1EE;
+    color: #E1F3F5;
+    padding: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+    .navbar-brand{
+        color:#3D5BF1;
+        background-color: #E1F3F5;
+        border-top: 20px;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .nav-item{
+        background-color: #E1F3F5;
+        border: #0E133F;
+        border-style: solid;
+
+    }
+
 
 #TítuloPrincipal{
     background-color: rgb(61, 91, 241);
@@ -47,6 +82,20 @@ body{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         margin: 1%;
     }
+    #Contenedor_Indice li{
+        background-color: white;
+        padding: 5px;
+        border-radius: 20px;
+
+    }
+
+    li a{
+        text-decoration: none; /* Elimina el subrayado */
+        color: black; /* Color del texto normal */
+    }
+        a hover{
+            color: blue;
+        }
     /*-------- Aquí es la configuración de las contenedores con los temas -------------*/
     .Contenedor_Secundario{
         background-color: #E1F3F5;
@@ -73,8 +122,12 @@ body{
         }
 
     /*-------------- Aquí es la configuiración del contenedor de introducción ------------*/
-    .Imagenes_Acordeon{
+    .ImagenCuadrada{
         max-width: 80%;
+        border-width: 10%;
+        border-color: #0E133F;
+        border-style: solid;
+
     }
     #Carrusel_Indice{
         max-width: 80%;
@@ -86,16 +139,36 @@ body{
         border-width: 1pc;
         border-style: solid;
     }
-#Colores{
-    color: rgb(225, 243, 245);
-    color: #E1F3F5;
 
-    color: rgb(35,208, 240);
-    color: #22D1EE;
+    #Video{
+        margin-left: auto;
+        margin-right: auto;
+        
+        border-radius: 20px;
+        border-color: #22D1EE;
+        border-width: 3px;
+        border-style: solid;
 
-    color: rgb(61, 91, 241);
-    color: #3D5BF1;
+        text-align: center;
+        background-color: #3D5BF1;
+    }
 
-    color: rgb(15, 20, 62);
-    color: #0E133F
+    
+/*------------------------------------ Configuración del footer -------------------------------------------*/
+
+footer{
+    background-color: rgb(15, 20, 62);
+    color: aliceblue;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.ListaHorizontal{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.ListaHorizontal li{                                    /* ¡¡Selector de Descendencia!! 🌹 */
+    display: inline-block;
+    margin-right: 3pc;
 }
