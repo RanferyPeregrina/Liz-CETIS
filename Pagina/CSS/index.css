@@ -12,9 +12,8 @@ nav{
     background-color:#22D1EE;
     color: #E1F3F5;
     padding: 0;
-    padding-left: 20%;
-    padding-right: 20%;
-    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
     .navbar-brand{
         color:#3D5BF1;
@@ -49,7 +48,13 @@ nav{
     padding: 20px;
     background-color: whitesmoke;
     color: black;
+
+    margin-bottom: 2pc;
 }
+.Contenedor_Principal{
+    margin-bottom: 4pc;
+}
+
 
 h3{                                                     /* ¡¡Selector de Etiqueta!! 🌹 */
     background-color: rgb(35, 208, 240);
@@ -58,6 +63,26 @@ h3{                                                     /* ¡¡Selector de Etiqu
     text-align: center;
     border-radius: 15px;
     margin-top: 40px;
+}
+#Contenedor_Valores{
+    background-color: #E1F3F5;
+    padding: 3pc;
+}
+
+.TituloArticle{
+    background-color: #3D5BF1;
+    padding: 20px;
+    
+    color: aliceblue;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+/*----------- Aquí va la configuración sobre los apartados de Misión ---------------*/
+.Seccion p{
+    background-color: white;
+    padding: 20px;
 }
 
 
@@ -69,6 +94,40 @@ h3{                                                     /* ¡¡Selector de Etiqu
 #Parrafo2_Aside + div.container img {                   /* ¡¡Selector de Adyacencia!! 🌹 */
     max-width: 100%;
 }
+
+/*------------------------------------ Configuración de Valores -------------------------------------------*/
+
+#Logo_CETIS{
+    max-width: 100%;
+    max-height: 100%;
+    border: #0E133F;
+    border-style: solid;
+    border-color: #0E133F;
+    border-width: 3px;
+}
+
+#Tabla_Valores{
+    background-color: #E1F3F5;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0E133F;
+}
+    #Tabla_Valores tr th td{
+        background-color: #E1F3F5;
+        
+        border-style: solid;
+        border-width: 1px;
+        border-color: #0E133F;
+    }
+    #Tabla_Valores tr{
+        background-color: white;
+        margin-bottom: 1pc;
+        padding: 20px;
+
+        border: #0E133F;
+        border-style: solid;
+        border-width: 1px
+    }
 
 /*------------------------------------ Configuración del footer -------------------------------------------*/
 

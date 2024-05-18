@@ -1,0 +1,173 @@
+
+header img{
+    width: 100%; /* Expande la imagen al 100% del contenedor */
+    max-height: 80%;
+    display: block; /* Evita el espacio en blanco debajo de la imagen */
+}
+        
+
+
+body{
+    background-color: #0E133F
+}
+nav{
+    height: 100px;
+    font-size: large;
+    
+    background-color:#22D1EE;
+    color: #E1F3F5;
+    padding: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+    .navbar-brand{
+        color:#3D5BF1;
+        background-color: #E1F3F5;
+        border-top: 20px;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .nav-item{
+        background-color: #E1F3F5;
+        border: #0E133F;
+        border-style: solid;
+
+    }
+
+
+#TítuloPrincipal{
+    background-color: rgb(61, 91, 241);
+    color: #E1F3F5;
+    text-align: center;
+    padding: 2pc;
+}
+.Títulos_Contenedores{
+    background-color:#E1F3F5;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2pc;
+
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #22D1EE;
+}
+.TextoPequeño{
+    font-size: smaller;
+    color: #b6c4c6;
+}
+
+/*-------- Aquí es la configuración de todo el índice -------------*/
+#Contenedor_Indice{
+    background-color: rgb(61, 91, 241);
+    padding: 2%;
+    max-width: 60%;
+    margin-top: 1pc;
+    margin-bottom: 3pc;
+
+    font-size: larger;
+    color: #E1F3F5;
+
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(35,208, 240);
+
+
+}
+    .Indice_Titulo{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 1%;
+    }
+    #Contenedor_Indice li{
+        background-color: white;
+        padding: 5px;
+        border-radius: 20px;
+
+    }
+
+    li a{
+        text-decoration: none; /* Elimina el subrayado */
+        color: black; /* Color del texto normal */
+    }
+        a hover{
+            color: blue;
+        }
+    /*-------- Aquí es la configuración de las contenedores con los temas -------------*/
+    .Contenedor_Secundario{
+        background-color: #E1F3F5;
+        padding: 3pc;
+        margin-bottom: 2pc;
+        width: 60%;
+
+        color: #0E133F;
+        font-weight: 500;
+
+        border-radius: 15px;
+    }
+        .Contenedor_Secundario h2{
+            font-weight: 800;
+            font-family:'Courier New', Courier, monospace;
+            text-align: center;
+        }
+        .Contenedor_Secundario .ContenedorImagenC3{
+            background-color: #3D5BF1;
+            padding: 2%;
+        }
+        .ImagenCuadrada{
+            max-width: 100%;
+        }
+
+    /*-------------- Aquí es la configuiración del contenedor de introducción ------------*/
+    .ImagenCuadrada{
+        max-width: 80%;
+        border-width: 10%;
+        border-color: #0E133F;
+        border-style: solid;
+
+    }
+    #Carrusel_Indice{
+        max-width: 80%;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+
+        border: #3D5BF1;
+        border-width: 1pc;
+        border-style: solid;
+    }
+
+    #Video{
+        margin-left: auto;
+        margin-right: auto;
+        
+        border-radius: 20px;
+        border-color: #22D1EE;
+        border-width: 3px;
+        border-style: solid;
+
+        text-align: center;
+        background-color: #3D5BF1;
+    }
+
+    
+/*------------------------------------ Configuración del footer -------------------------------------------*/
+
+footer{
+    background-color: rgb(15, 20, 62);
+    color: aliceblue;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.ListaHorizontal{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.ListaHorizontal li{                                    /* ¡¡Selector de Descendencia!! 🌹 */
+    display: inline-block;
+    margin-right: 3pc;
+}
