@@ -1,0 +1,8 @@
+Repositorio de GitHub:
+https://github.com/RanferyPeregrina/Liz-CETIS
+
+Documento de Drive sobre Bootstrap:
+https://docs.google.com/document/d/12dTFgoM3Z7NN3VI2zvqo2rcxjB8jI-Ik53VWB8DhMKY/edit?pli=1#heading=h.iflvxkvy0c5a
+
+Documento de Drive sobre MediaQuery:
+https://1drv.ms/w/s!AtVj8MjKds21hH37t-QDKcvLky8D
