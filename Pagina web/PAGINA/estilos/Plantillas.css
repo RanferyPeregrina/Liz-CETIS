@@ -1,0 +1,89 @@
+/* Cosas para que funcione correctamente el header: */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}main {
+    padding: 20px;
+}@media screen and (max-width: 600px) {
+    header {
+        text-align: center;
+    }
+
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Esta es parte del Aisde ------------------------------- */
+#Aside{
+    padding: 1%;
+
+    background-color: #333333;
+    color: rgb(255, 255, 255)
+}
+#ContenedorPrincipal{
+    width: 100%;
+}
+#AsidePrincipal{
+    background-color: aqua;
+}
+
+#Aside ol, #Aside ul{
+margin: 5%;
+margin-top: 6%;
+margin-bottom: 6%;
+
+}
+
+#Aside li{
+    color: rgb(255, 255, 255);
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+    font-size: larger;
+}
+
+/* Estilo de hover para el enlace */
+a:hover {
+    color: rgb(255, 255, 255); /* Cambia el color al pasar el mouse */
+    background-color: #333;
+}
+
+/* Esta es parte del catálogo ------------------------------ */
+.card{
+    padding: 4px;
+    margin-bottom: 20px;
+
+    border: #333;
+    border-width: 4px;
+    border-style: solid;
+}

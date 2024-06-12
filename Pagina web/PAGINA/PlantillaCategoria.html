@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Tienda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/Plantillas.css">
+</head>
+<body>
+
+<!-- Encabezado -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- Logotipo de la empresa -->
+                <img src="img/imglogo.jpg" width="100px" height="100px" alt="Logo de la empresa">
+            </div>
+            <div class="col">
+                <!-- Caja de búsqueda -->
+                <input type="text" class="form-control" placeholder="Buscar...">
+            </div>
+            <div class="col">
+                <!-- Carrito de compras -->
+                <a href="carrito.html" class="btn btn-primary">Carrito (3)</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Menú de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="categoria1.html">Categoría 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="categoria2.html">Categoría 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="categoria3.html">Categoría 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="registro.html">Registro</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Sección Principal -->
+<main>
+      
+        <div id="FilaPrincipal" class="row">
+
+              <!-- Todo esto funciona a modo de Aside, pero con Grid de Boostrap -->
+        <div id="Aside" class="col-2"><!-- Esto es la barra de la izquierda, el menú numero 2 -->
+            <h2>NombrePagina</h2><br>
+
+
+            <!-- lista de enlaces ---------------------------------- -->
+            <h5>Enlaces relacionados:</h5>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Categoria1.html">Categoría 1</a></li>
+                <li><a href="Categoria2.html">Categoría 2</a></li>
+                <li><a href="Categoria3.html">Categoría 3</a></li>
+                <li><a href="Informacion.html">Información</a></li>
+                <li><a href="Registro.html">Registrarse</a></li>
+                <li><a href="Carrito.html">Consultar compras</a></li>
+            </ul>
+
+            <!-- lista de artículos de esta categoría -------------- -->
+            <h5>Lista de elementos de este catálogo:</h5>
+             <ol>
+                <li><a href="ArticuloN.html">NombreArticuloN</a></li>
+                <li><a href="ArticuloN.html">NombreArticuloN</a></li>
+                <li><a href="ArticuloN.html">NombreArticuloN</a></li>
+                <li><a href="ArticuloN.html">NombreArticuloN</a></li>
+                <li><a href="ArticuloN.html">NombreArticuloN</a></li>
+                <li><a href="ArticuloN.html">NombreArticuloN</a></li>
+                <li><a href="ArticuloN.html">NombreArticuloN</a></li>
+                <li><a href="ArticuloN.html">NombreArticuloN</a></li>
+                <li><a href="ArticuloN.html">NombreArticuloN</a></li>
+                <li><a href="ArticuloN.html">NombreArticuloN</a></li>
+             </ol>
+
+         </div>
+
+         <div id="Catalogo" class="col-10">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="Imagenes/ImagenPlaceholder_Cuadrada.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Titulo_Articulo - PrecioArticulo</h5>
+                              <p class="card-text">Descripción del artículo, este debe ser un texto más o menos largo que después vamos a remplazar.</p>
+                              <a href="ArticuloN.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="Imagenes/ImagenPlaceholder_Cuadrada.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Titulo_Articulo - PrecioArticulo</h5>
+                              <p class="card-text">Descripción del artículo, este debe ser un texto más o menos largo que después vamos a remplazar.</p>
+                              <a href="ArticuloN.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="Imagenes/ImagenPlaceholder_Cuadrada.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Titulo_Articulo - PrecioArticulo</h5>
+                              <p class="card-text">Descripción del artículo, este debe ser un texto más o menos largo que después vamos a remplazar.</p>
+                              <a href="ArticuloN.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="Imagenes/ImagenPlaceholder_Cuadrada.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Titulo_Articulo - PrecioArticulo</h5>
+                              <p class="card-text">Descripción del artículo, este debe ser un texto más o menos largo que después vamos a remplazar.</p>
+                              <a href="ArticuloN.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="Imagenes/ImagenPlaceholder_Cuadrada.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Titulo_Articulo - PrecioArticulo</h5>
+                              <p class="card-text">Descripción del artículo, este debe ser un texto más o menos largo que después vamos a remplazar.</p>
+                              <a href="ArticuloN.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="Imagenes/ImagenPlaceholder_Cuadrada.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Titulo_Articulo - PrecioArticulo</h5>
+                              <p class="card-text">Descripción del artículo, este debe ser un texto más o menos largo que después vamos a remplazar.</p>
+                              <a href="ArticuloN.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="Imagenes/ImagenPlaceholder_Cuadrada.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Titulo_Articulo - PrecioArticulo</h5>
+                              <p class="card-text">Descripción del artículo, este debe ser un texto más o menos largo que después vamos a remplazar.</p>
+                              <a href="ArticuloN.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="Imagenes/ImagenPlaceholder_Cuadrada.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Titulo_Articulo - PrecioArticulo</h5>
+                              <p class="card-text">Descripción del artículo, este debe ser un texto más o menos largo que después vamos a remplazar.</p>
+                              <a href="ArticuloN.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="Imagenes/ImagenPlaceholder_Cuadrada.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Titulo_Articulo - PrecioArticulo</h5>
+                              <p class="card-text">Descripción del artículo, este debe ser un texto más o menos largo que después vamos a remplazar.</p>
+                              <a href="ArticuloN.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="Imagenes/ImagenPlaceholder_Cuadrada.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Titulo_Articulo - PrecioArticulo</h5>
+                              <p class="card-text">Descripción del artículo, este debe ser un texto más o menos largo que después vamos a remplazar.</p>
+                              <a href="ArticuloN.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+
+
+    <div id="ContenedorPrincipal" class="container">
+
+    </div>
+</main>
+
+
+<footer class="bg-dark text-light">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>Derechos Reservados</p>
+            </div>
+            <div class="col">
+                <p>
+                    <h5>Integrantes del equipo:</h5>
+                    <h5>Gael Neftaly Garza Tovar</h5>
+                    <h5>Cristofer Aaron Rivera Iruegas</h5>
+                    <h5>Daniel Alberto Martinez Aguirre</h5>
+                    <h5>Fatima Lizeth Montemayor Velez</h5>
+                    <h5>Jessica Alonso Alonso</h5>
+                </p>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Enlazar Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
