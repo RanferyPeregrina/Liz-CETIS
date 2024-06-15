@@ -1,0 +1,10 @@
+Inicio
+	Con acordeón
+
+Habitaciones
+Reservaciones
+Servicio
+Registro
+	PhP	
+	Base de datos
+	

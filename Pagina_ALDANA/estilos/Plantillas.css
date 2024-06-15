@@ -1,6 +1,12 @@
 /* Cosas para que funcione correctamente el header: */
 
 /* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -79,11 +85,28 @@ a:hover {
 }
 
 /* Esta es parte del catálogo ------------------------------ */
+.Contenedor_Flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+}
+
 .card{
-    padding: 4px;
+    padding: 20px;
     margin-bottom: 20px;
 
-    border: #333;
+    width: 80%;
+
+    border: 1px solid #333;
     border-width: 4px;
     border-style: solid;
+
+    flex: 1 1 33%;
+    display: flex;
+    box-sizing: border-box;
+
+    justify-content: center;
+    align-items: center;
+    
 }

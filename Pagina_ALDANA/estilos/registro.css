@@ -1,0 +1,78 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 600px) {
+    header {
+        text-align: center;
+    }
+
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+/* Aquí van las configuraciones referentes a la parte derecha del contenedor principal */
+#ContenedorPrincipal{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    padding: 15px;
+
+}
+.Mitad{
+    flex: 1 1 50%
+}
+    .Formulario_Elemento{
+        flex: 1 1 100%;
+        display: flex;
+
+        align-items: center;
+        box-sizing: border-box;
+        text-align: center;
+
+        border: 1px solid #ccc;
+        padding: 2px;
+    }
