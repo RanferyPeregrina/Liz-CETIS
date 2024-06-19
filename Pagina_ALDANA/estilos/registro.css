@@ -60,11 +60,25 @@ main {
 
     width: 100%;
     padding: 15px;
-
+    text-align: center; 
 }
 .Mitad{
     flex: 1 1 50%
 }
+    #MitadIzquierda{
+        flex: 1 1 50%;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+        background-color: #f0f0f0; /*Este color lo pueden cambiar si quieren*/
+    }
+        #MitadIzquierda img {
+            max-width: 100%;
+            height: auto;
+        }
+
     .Formulario_Elemento{
         flex: 1 1 100%;
         display: flex;
@@ -76,3 +90,16 @@ main {
         border: 1px solid #ccc;
         padding: 2px;
     }
+
+/* Aquí empezamos a hacer el diseño responsivo de las páginas ------------------- */
+
+@media (max-width: 768px) {
+    #MitadIzquierda {
+        display: none; /* Desaparece */
+    }
+
+    #MitadDerecha {
+        flex: 1 1 100%; /* Toma el protagonismo ✨ */
+        padding: 20px;
+    }
+}

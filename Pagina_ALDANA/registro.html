@@ -58,16 +58,20 @@
 <main>
    <div id="ContenedorPrincipal">
 
-    <div class="Mitad">
-        <h1>ola</h1>
+    <div id="MitadIzquierda" class="Mitad">
+        <img src="Imagenes/ImagenRegistro.jpg" alt="">
     </div>
-    <div class="mitad">
+    <div id="MitadDerecha" class="Mitad">
         
         <form action="formu.php" method="POST">
 
              <div class="Formulario_Elemento">
-                <label class ="Label_Formulario" for="nombre">Ingrese su nombre completo:</label> <br>
-                <input placeholder="Escriba aquí su nombre completo" type="text" id="nombre" name="nombre" required><br><br>    
+                <div class="Mitad">
+                    <label class ="Label_Formulario" for="nombre">Ingrese su nombre completo:</label> <br>
+                </div>
+                <div class="Mitad">
+                    <input placeholder="Escriba aquí su nombre completo" type="text" id="nombre" name="nombre" required><br><br>    
+                </div>
              </div>              
 
             <div class="Formulario_Elemento">
