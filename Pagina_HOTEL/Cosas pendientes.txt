@@ -1,10 +1,2 @@
-Inicio
-	Con acordeón
-
-Habitaciones
-Reservaciones
-Servicio
-Registro
-	PhP	
-	Base de datos
-	
+Crear las tablas de la base de datos
+	Preguntar cómo se va a hacer la implementación de la "Fecha de nacimiento"

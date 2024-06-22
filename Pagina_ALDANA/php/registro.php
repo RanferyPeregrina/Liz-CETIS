@@ -1,3 +1,42 @@
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Validación de nombre
+    if (empty($_POST["nombre"]) || strlen($_POST["nombre"]) > 75) {
+        die("El nombre es inválido.");
+    }
+
+    // Validación de teléfono
+    if (!preg_match("/^\d{12}$/", $_POST["telefono"])) {
+        die("El teléfono debe contener 12 dígitos.");
+    }
+
+    // Validación de fecha de nacimiento (mayor de 18 años)
+    $fechaNacimiento = new DateTime($_POST["fecha-nacimiento"]);
+    $ahora = new DateTime();
+    $diferencia = $ahora->diff($fechaNacimiento);
+    if ($diferencia->y < 18) {
+        die("Debe ser mayor de 18 años.");
+    }
+
+    // Validación de número de tarjeta bancaria
+    if (!preg_match("/^\d{18}$/", $_POST["tarjeta-bancaria"])) {
+        die("El número de tarjeta bancaria debe contener 18 dígitos.");
+    }
+
+    // Validación de contraseñas
+    if (strlen($_POST["contra"]) < 8 || strlen($_POST["contra"]) > 16) {
+        die("La contraseña debe tener entre 8 y 16 caracteres.");
+    }
+
+    if ($_POST["contra"] !== $_POST["confirmar-contra"]) {
+        die("Las contraseñas no coinciden.");
+    }
+
+    // Si todas las validaciones pasan, guardar los datos en la base de datos
+    // Código para insertar en la base de datos
+}
+
+
+
 
 <!-- Codigo viejito... no sé si vaya a funcionar la verdad. Pero lo guardamos para explorar el modelo después -->
 <!-- if ($_SERVER["REQUEST_METHOD"] == "POST") {
