@@ -88,8 +88,11 @@ a:hover {
 .Contenedor_Flex{
     display: flex;
     flex-wrap: wrap;
+
     width: 100%;
     padding: 20px;
+    gap: 10px; /* Espacio entre tarjetas */
+
 }
 
 .card{
@@ -105,8 +108,47 @@ a:hover {
     flex: 1 1 33%;
     display: flex;
     box-sizing: border-box;
+    flex-grow: 0; /* No permitir que las tarjetas se expandan */
 
     justify-content: center;
     align-items: center;
+
+}
+
+/* Aquí inicia el diseño repsonsivo -------------------------- */
+
+@media (max-width: 768px) {
+    #Aside{
+        display: none;
+    }
+
     
+}
+/* Estilos para pantallas grandes (3 columnas) */
+@media (min-width: 900px) {
+    .card {
+        flex: 0 1 calc(33.333% - 20px); /* 33.333% del ancho menos el gap */
+    }
+}
+
+/* Estilos para pantallas medianas (2 columnas) */
+@media (max-width: 899px) and (min-width: 600px) {
+    .card {
+        flex: 0 1 calc(50% - 20px); /* 50% del ancho menos el gap */
+    }
+}
+
+/* Estilos para pantallas pequeñas (1 columna) */
+@media (max-width: 599px) {
+    .card {
+        flex: 0 1 100%; /* 100% del ancho */
+    }
+}
+@media (max-width: 330px){
+    .card-text{
+        display:none;
+    }
+    .card{
+        flex: 0 0 100%;
+    }
 }
