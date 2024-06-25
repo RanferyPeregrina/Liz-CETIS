@@ -32,31 +32,15 @@
 
         <div class="container">
 
-            <form method="post">
+        <form action="registrar.php" method="post">
+            <input type="text" name="Nombre" placeholder="Nombre">
+            <input type="number" name="CantidadAdultos" placeholder="Cantidad de Adultos">
+            <input type="number" name="CantidadNinos" placeholder="Cantidad de Niños">
+            <input type="date" name="FechaLlegada" placeholder="Fecha de Llegada">
+            <input type="date" name="FechaSalida" placeholder="Fecha de Salida">
+            <button id="EnviarReservacion" name="EnviarReservacion" type="submit" class="btn btn-primary">Enviar</button>
+        </form>
 
-                <div class="form-group">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Introduce tu nombre">
-                </div>
-                <div class="form-group">
-                    <label for="adultos">Cantidad de Adultos</label>
-                    <input type="number" class="form-control" id="adultos" name="CantidadAdultos" placeholder="Introduce la cantidad de adultos">
-                </div>
-                <div class="form-group">
-                    <label for="ninos">Cantidad de Niños</label>
-                    <input type="number" class="form-control" id="ninos" name="CantidadNinos" placeholder="Introduce la cantidad de niños">
-                </div>
-                <div class="form-group">
-                    <label for="fechaInicio">Fecha de Llegada</label>
-                    <input  placeholder="dd-mm-aaaa" class="form-control datepicker" name="FechaLlegada" id="fechaInicio">
-                </div>
-                <div class="form-group">
-                    <label for="fechaFin">Fecha de Salida</label>
-                    <input placeholder="dd-mm-aaaa" type="text" name="FechaSalida" class="form-control datepicker" id="fechaFin">
-                </div>
-                <button id="EnviarReservacion" name="EnvarReservacion" type="submit" class="btn btn-primary">Enviar</button>
-
-            </form>
 
         </div>
 
