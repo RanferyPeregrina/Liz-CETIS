@@ -1,0 +1,11 @@
+
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+input{
+    max-width: 60%;
+    height: 30px;
+    margin: 10px;
+}
