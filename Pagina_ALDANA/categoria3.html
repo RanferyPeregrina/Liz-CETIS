@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Tienda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/Plantillas.css">
+</head>
+<body>
+
+<!-- Encabezado -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- Logotipo de la empresa -->
+                <img src="Imagenes/imglogo.jpg" width="100px" height="100px" alt="Logo de la empresa">
+            </div>
+            <div class="col">
+                <!-- Caja de búsqueda -->
+                <input type="text" class="form-control" placeholder="Buscar...">
+            </div>
+            <div class="col">
+                <!-- Carrito de compras -->
+                <a href="carrito.html" class="btn btn-primary">Carrito (3)</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Menú de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="categoria1.html">Categoría 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="categoria2.html">Categoría 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="categoria3.html">Categoría 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="registro.html">Registro</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Sección Principal -->
+<main>
+      
+        <div id="FilaPrincipal" class="row">
+
+              <!-- Todo esto funciona a modo de Aside, pero con Grid de Boostrap -->
+        <div id="Aside" class="col-2"><!-- Esto es la barra de la izquierda, el menú numero 2 -->
+            <h2>NombrePagina</h2><br>
+
+
+            <!-- lista de enlaces ---------------------------------- -->
+            <h5>Enlaces relacionados:</h5>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Verdetalle.htm.html">Categoría 1</a></li>
+                <li><a href="VerDetallesAaron.html">Categoría 2</a></li>
+                <li><a href="Categoria3.html">Categoría 3</a></li>
+                <li><a href="Informacion.html">Información</a></li>
+                <li><a href="Registro.html">Registrarse</a></li>
+
+            </ul>
+
+
+         </div>
+
+         <div id="Catalogo" class="col-10">
+            <div class="Contenedor_Flex">
+
+                    
+                        <div class="card" >
+                            <img class="card-img-top" src="Imagenes/Bajo2.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Bajo Ibanez Azul Sombreado Mate 5 Cuerdas Btb705lm-ctl - $24,138.00</h5>
+                                <p class="card-text">El Ibanez BTB705LM es un bajo multiescala de cinco cuerdas que combina materiales selectos, construcción neck-thru y componentes de primera calidad extravagante. </p>
+                                <a href="Guitarrafender.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                   
+                        
+                        <div class="card" >
+                            <img class="card-img-top" src="Imagenes/Bajo1.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">BBajo Eléctrico Yamaha Rbx170 Negro - Yamaha - $20.735.00</h5>
+                              <p class="card-text">El RBX170 representa un antes y un después en el precio de los bajos RBX, manteniendo la calidad característica de Yamaha.</p>
+                              <a href="Guitarrafender.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                                                
+              
+                        <div class="card">
+                            <img class="card-img-top" src="Imagenes/Bajo3.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Bajo eléctrico Squier Sonic Precision Bass California Blue - $288.000.00</h5>
+                              <p class="card-text">El Squier Sonic Precision Bass MN es un instrumento innovador con componentes de alto calibre y un sonido supremo que permanecerá en tu cabeza y en tu corazón para siempre. La pastilla cerámica split de bobinado simple Precision Bass realza tus líneas de bajo, infundiéndoles un tono audaz, potente y definido, que brilla con calidez y profundidad.</p>
+                              <a href="Guitarrafender.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+               
+                  
+                        <div class="card" >
+                            <img class="card-img-top" src="Imagenes/Bajo4.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Bajo de 4 cuerdas Squier Classic vibe 60's - $3.450.00</h5>
+                              <p class="card-text">Es un tipo de bajo que no tiene trastes en el diapasón. Esto le da un sonido más suave y vibrante que el bajo eléctrico de cuatro cuerdas. Es utilizado en géneros musicales como el jazz y el fusion.
+                                Funciona por medio de la alimentación eléctrica que recibe el bajo. Tiene un sonido más natural que el pasivo</p>
+                              <a href="Guitarrafender.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+
+                
+                        <div class="card">
+                            <img class="card-img-top" src="Imagenes/Bajo5.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Bajo de rango extendido Minion JS1X serie js - $4.999.00</h5>
+                              <p class="card-text">Cuenta con un número de cuerdas superior a las cuatro empleadas usualmente en la construcción de estos instrument.
+                                Cuentan con 4 cuerdas, amplían el rango estándar del instrumento, como sucede por ejemplo con bajos de ocho cuerdas dobles o de doce cuerdas triples..</p>
+                              <a href="Guitarrafender.html" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+            </div>
+         </div>
+    </div>
+
+</main>
+
+
+<footer class="bg-dark text-light">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>Derechos Reservados</p>
+            </div>
+            <div class="col">
+                <p>
+                    <h5>Integrantes del equipo:</h5>
+                    <h5>Gael Neftaly Garza Tovar</h5>
+                    <h5>Cristofer Aaron Rivera Iruegas</h5>
+                    <h5>Daniel Alberto Martinez Aguirre</h5>
+                    <h5>Fatima Lizeth Montemayor Velez</h5>
+                    <h5>Jessica Alonso Alonso</h5>
+                </p>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Enlazar Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
